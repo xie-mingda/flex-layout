@@ -26,24 +26,17 @@
     .column {
       flex-direction: column;
     }
-    .flex2 {
-      flex: 1;
-    }
   </style>
 </head>
 <body class="flex">
   <!-- 侧边栏 -->
   <div style="width:200px" class="baise"></div>
   <!-- 主区域 -->
-  <div class="baise flex1 column">
-    <!-- 头部栏 -->
-    <div style="height:60px" class="baise"></div>
-    <!-- 内容区 -->
-    <div class="flex2 baise flex">
-      <!-- 左区 -->
-      <div style="flex:3" class="baise"></div>
-      <!-- 右区 -->
-      <div style="flex:1" class="baise"></div>
+  <div class="flex1 flex column">
+    <div style="height:60px"></div>
+    <div class="flex1 flex">
+      <div style="flex:3"></div>
+      <div style="flex:1"></div>
     </div>
   </div>
 </body>
